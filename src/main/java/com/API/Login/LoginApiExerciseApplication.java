@@ -34,7 +34,7 @@ public class LoginApiExerciseApplication implements ApplicationRunner{
 			}
 			
 		} catch (Exception e) {
-			System.out.println("Service is down!! please run [MyonetoM] project for practicing ApplicationRunner ");
+			System.out.println("Service is down!! please run [MyonetoM] project for practicing ApplicationRunner");
 		}
 	}
 
