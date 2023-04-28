@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import com.API.Login.Entity.ApiResponse;
 
+//any exception occur would come here
+//this is global exception handling 
 @RestController
 @RestControllerAdvice
 public class globalExceptiomnHandler{
