@@ -23,7 +23,7 @@ public class globalExceptiomnHandler{
 		String message = ex.getMessage();
 		ApiResponse apiResponse=new ApiResponse();
 		apiResponse.setError(404);
-		apiResponse.setMessage("Not Found!!");
+		apiResponse.setMessage("Not Found!!!");
 		
 		return message;
 	}
